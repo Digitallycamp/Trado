@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+    padding:0;
+}
+body{
+    font-family:sans-serif;
+}
+
+nav{
+    display:flex;
+    height:80px;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 80px;
+    border-bottom:1px solid #f6f6f6;
+}
+
+nav div{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+}
+nav div a {
+    text-decoration:none;
+    color:#222222;
+}
+nav div a:hover{
+    color:orange;
+}
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content:space-around;
+    min-width:200px;
+    max-width:1200px;
+    margin:0 auto;
+    padding:60px 0;
+}
+.data{
+    min-width:200px;
+    max-width:280px;
+    text-align:center;
+    padding:10px;
+    cursor:pointer;
+    box-shadow: 0 0 4px 0 #f6f6f6;
+}
+.data p{
+    margin:16px 0;
+}
+.data img{
+    width:200px;
+}
+.data:hover{
+   background-color:#f6f6f6;
+}
+button{
+    padding:8px 16px;
+    background-color:orange;
+    border:none;
+    width:100%;
+}
+button:hover{
+    background-color:rgba(255, 166, 0, 0.698);
+}
+
+
+/* Modal */
+
+.modal{
+    width:100%;
+    height:100%;
+    position: fixed;
+    top:0;
+    display:none;
+    background-color:#ffffff;
+    padding:60px 20px;
+    overflow-y:scroll;
+
+}
+.modal span{
+    float:right;
+    cursor:pointer;
+}
+
+.modal span:hover{
+    background-color:orange;
+}
+
+.show-modal {
+    display:block;
+}
+
+.inner-modal{
+    display:flex;
+    gap:20px;
+    min-width:200px;
+    max-width:1200px;
+   margin:0 auto;
+    justify-content: space-between;
+
+
+}
+
+.inner-modal img{
+    min-width:200px;
+    max-width:400px;
+    border-radius:16px;
+}
+
+.product-info p{
+    margin: 20px 0;
+   
+}
+
