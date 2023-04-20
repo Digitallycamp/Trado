@@ -115,3 +115,13 @@ button:hover{
    
 }
 
+
+@media only screen and (max-width:786px){
+    nav{
+           padding:0 16px;
+    }
+    .inner-modal{
+        display:flex;
+        flex-direction:column;
+    }
+}
