@@ -4,14 +4,6 @@ const modalElem = document.querySelector('.modal');
 const innerModalElem = document.querySelector('.inner-modal');
 const closeBtn = document.querySelector('.close');
 
-console.log(innerModalElem)
-
-
-
-
-
-
-
 // Fetching data
 function readData(url){
 
